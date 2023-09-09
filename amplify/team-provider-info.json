@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifyhandson-dev-142916",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:413657658640:stack/amplify-amplifyhandson-dev-142916/d338f200-4ed1-11ee-9765-06a04fef5983",
       "AmplifyAppId": "d176lpifpss72c"
+    },
+    "categories": {
+      "auth": {
+        "amplifyhandsonf2b573a1": {}
+      }
     }
   }
 }
