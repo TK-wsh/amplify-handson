@@ -17,6 +17,9 @@
       },
       "api": {
         "amplifyhandson": {}
+      },
+      "storage": {
+        "s3": {}
       }
     }
   }

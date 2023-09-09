@@ -6,4 +6,5 @@ type Todo
   ]) {
     title: String!
     description: String
+    image: String
 }
