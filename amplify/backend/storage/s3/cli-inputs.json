@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3",
+  "policyUUID": "fa6a0feb",
+  "bucketName": "amplifyhandson20230909twsh",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

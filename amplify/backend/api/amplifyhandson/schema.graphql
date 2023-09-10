@@ -1,0 +1,13 @@
+type Todo
+  @model
+  @auth(rules: [
+    { allow: public, operations: [read] }, 
+    { allow: owner }
+  ]) {
+    title: String!
+    description: String
+    image: String
+}
+type Query {
+  lambdaInvoke: String @function(name: "sendMailFunction-${env}")
+}
