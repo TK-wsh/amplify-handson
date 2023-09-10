@@ -19,7 +19,16 @@ export type AmplifyDependentResourcesAttributes = {
   },
   "custom": {
     "sns": {
-      "snsTopicARN": "string"
+      "snsTopicArn": "string"
+    }
+  },
+  "function": {
+    "sendMailFunction": {
+      "Arn": "string",
+      "LambdaExecutionRole": "string",
+      "LambdaExecutionRoleArn": "string",
+      "Name": "string",
+      "Region": "string"
     }
   },
   "storage": {

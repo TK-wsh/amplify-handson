@@ -23,6 +23,12 @@
       },
       "custom": {
         "sns": {}
+      },
+      "function": {
+        "sendMailFunction": {
+          "deploymentBucketName": "amplify-amplifyhandson-dev-142916-deployment",
+          "s3Key": "amplify-builds/sendMailFunction-4e415a396d3538357761-build.zip"
+        }
       }
     }
   }

@@ -16,7 +16,7 @@ Resources:
         Ref: SNSTopic
       Endpoint: hasutaken908@gmail.com
 Outputs:
-  snsTopicARN:
+  snsTopicArn:
     Value:
       Ref: SNSTopic
 Description: >-
